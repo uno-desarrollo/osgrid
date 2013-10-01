@@ -19,7 +19,7 @@ var osGrid = function(data, options, pageSize, divId, cssClass, name) {
 			min = 0;
 		}
 		var max = (min + pageSize) - 1;
-		console.log(min + ", " + max);
+
 		$.each(options, function(title, field){
 			thead = thead + "<th>" + title + "</th>";
 		});
